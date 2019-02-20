@@ -1,0 +1,86 @@
+body {
+  font-family: 'Lora', serif;
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: 100;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 28px;
+  font-weight: 100;
+}
+
+h1 {
+ font-size: 42px;
+ font-weight: 100;
+}
+
+.img-round {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.profile td {
+  padding-left: 10px;
+}
+
+.profile p {
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner {
+  color: white;
+  background-image: linear-gradient(-225deg, rgba(255,0,0,0.7) 20%, rgba(0,0,255,0.2) 80%), url("http://placekitten.com/1000/500");
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.banner h2 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.banner h3 {
+  color: rgba(255,255,255,.6);
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.article h3 {
+  color: #a0a0a0;
+}
+
+.link-green a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 21px;
+  font-style: italic;
+}
+
+.link-green a:hover {
+  background-color: #7DFFB3;
+}
+
+/*Media queries*/
+
+@media(max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+}
+
+
+@media(max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
